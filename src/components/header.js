@@ -9,7 +9,7 @@ export default function Header() {
     return (
         <View style={styles.headerStyle}>
             <View style={styles.menuContent}>
-                <View style={styles.menuIcon}>
+                <View>
                     <Entypo name="menu" size={30} color="white" />
                 </View>
                 <View style={styles.notifyIcon}>
@@ -24,9 +24,10 @@ export default function Header() {
 
 const styles = StyleSheet.create({
     headerStyle: {
-        paddingTop: 40,
+        paddingTop: 75,
         paddingLeft: 30,
         paddingRight: 30,
+        paddingBottom: 75,
         backgroundColor: '#0059B3',
     },
 
@@ -34,9 +35,6 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         display: 'flex',
         justifyContent: 'space-between'
-    },
-
-    menuIcon: {
     },
 
     notifyIcon: {

@@ -16,8 +16,9 @@ export default function Profile() {
 
 const styles = StyleSheet.create({
     profileContent: {
-        paddingTop: 20,
-        flexDirection: 'row'
+        marginTop: 50,
+        flexDirection: 'row',
+        alignItems: 'center',
     },
 
     profileImage: {
@@ -29,19 +30,18 @@ const styles = StyleSheet.create({
 
     infoProfile: {
         marginLeft: 15,
-        height: '100%',
         justifyContent: 'center'
     },
 
     infoProfileMessage: {
         color: 'white',
         fontSize: 13,
-        marginBottom: 3
+        marginBottom: -2
     },
 
     infoProfileName: {
         color: 'white',
         fontSize: 23,
-        fontWeight: 500
+        fontWeight: '500'
     }
 })
